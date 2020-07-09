@@ -1,0 +1,58 @@
+@import url('https://fonts#googleapis#com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #2b2a2a;
+}
+#calender{
+    display: block;
+    background: #fff;
+    width: 200px;
+    height: 180px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+    border-radius: 20px;
+}
+#calender #mes{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: red;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 8px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#calender #diaSemana{
+    display: block;
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+#calender #diaMes{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#calender #ano{
+    display: block;
+    text-align: center;
+    color: #5e5e5e;
+    margin: 20px 0px;
+}
+#calender #mes::first-letter{
+    text-transform: uppercase;
+}
+#calender #diaSemana::first-letter{
+    text-transform: uppercase;
+}
